@@ -1,3 +1,8 @@
+#name_h1 {
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
 #image_div {
     display: flex;
     justify-content: center;
@@ -42,11 +47,11 @@
     justify-content: center;
     color:rgb(77, 5, 119);
 }
+#form_feild {
+    border-radius: 10px;
+}
 #button_div {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    
+    text-align: center;
 }
 #confirm_btn {
     padding: 20px;
