@@ -1,0 +1,94 @@
+#image_div {
+    display: flex;
+    justify-content: center;
+}
+#image_div img {
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+}
+#image_div img:hover {
+    cursor: pointer;
+}
+
+#hotel_name {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    color: #000000;
+}
+#hotel_address {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    color: #5a5858;
+}
+#inside_div {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#form_title {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    color:rgb(77, 5, 119);
+}
+#button_div {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+#confirm_btn {
+    padding: 20px;
+    margin: 10px;
+}
+#cancel_btn {
+    padding: 20px;
+    margin: 10px;
+}
+#update_btn {
+    padding: 20px;
+    margin: 10px;
+}
+#pending_btn {
+    padding: 20px;
+    margin: 10px;
+}
+#confirm_btn {
+    transition-duration: 0.4s;
+}
+#confirm_btn:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+#cancel_btn {
+    transition-duration: 0.4s;
+}
+#cancel_btn:hover {
+    background-color: #af1212; /* Green */
+    color: white;
+}
+#update_btn {
+    transition-duration: 0.4s;
+}
+#update_btn:hover {
+    background-color: #bb10ff; /* Green */
+    color: white;
+}
+#pending_btn {
+    transition-duration: 0.4s;
+}
+#pending_btn:hover {
+    background-color: #3a37ff; /* Green */
+    color: white;
+}

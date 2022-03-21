@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="image_div">
+        <image id="hotel-image" src="assets/pexels-photo-164595.jpeg" alt=""></image>
+    </div>
+    <div id="text_div">
+        <h1 id="hotel_name">Hotel - XYZ, Newtown Kolkata</h1>
+        <p id="hotel_address">Near Action Area - 1C, Newtown, Kolkata, PIN - 700156</p>
+
+        <div id="inside_div">
+            <form action="#" method="post">
+              <fieldset>
+                <h2 id="form_title">Fill in your Details For Booking!!</h2>
+                  <label for="name">Name</label>
+                  <input type="text" id="name" placeholder="Enter your Name"/><br/><br/>
+                  <label for="email">Email</label>
+                  <input type="emai" id="email" placeholder="Enter your email"/><br/><br/>
+                  <label for="noofroom">Enter Number of Guests</label>
+                  <select id='some_id' name='some_name'>
+                    <option hidden selected>None...</option>
+                    <option value='Value1'>1</option>
+                    <option value='Value2'>2</option>
+                    <option value='Value3'>3</option>
+                    <option value='Value4'>4</option></select><br/><br/>
+                  <label for="name">Check In</label>
+                  <input type="date" id="chkin" placeholder="Enter check in"/><br/><br/>
+                  <label for="name">Check Out</label>
+                  <input type="date" id="chkout" placeholder="Enter check out"/><br/><br/>
+              </fieldset>
+          </form>
+        </div>
+
+    <div id="button_div">
+        <button id="confirm_btn" type="submit" name="submit">CONFIRM</button>
+        <button id="cancel_btn" type="submit" name="submit">CANCEL</button>
+        <button id="update_btn" type="submit" name="submit">UPDATE</button>
+        <button id="pending_btn" type="submit" name="submit">PENDING</button>
+    </div>
+
+    <script type="text/javascript" src="index.js"></script>
+
+</body>
+</html>
